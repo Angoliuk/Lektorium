@@ -1,0 +1,59 @@
+.line{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.square{
+    border: 5px solid black;
+    border-radius: 15%;
+    width: 10%;
+}
+
+.twoPointsLine{
+    display: flex;
+    justify-content: space-around;
+}
+
+.onePointLine{
+    display: flex;
+    justify-content: center;
+}
+
+.point{
+    margin: 8%;
+    border: 8px solid black;
+    background-color: black;
+    border-radius: 30px;
+} 
+
+@media (max-width: 600px) {
+    .point{
+        border: 5px solid black;;
+    }
+    .square{
+        border: 3px solid black;
+    }
+}
+
+
+.pointStart{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pointEnd{
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+.zeroPoint{
+    margin: 8%;
+    border: 8px solid white;
+    border-radius: 30px;
+}
+
+.pointd{
+    margin: 8%;
+}
